@@ -1,0 +1,15 @@
+server:
+  servlet:
+    encoding:
+      force-response: true
+  port: 8081
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/myacademy-db
+    username: root
+    password: 12341234
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
